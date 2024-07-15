@@ -1,0 +1,53 @@
+[
+    {
+        "cardimg":  "aard-myly-zyt-lnmo-alshaar-ofro-alras-balnaanaaa-oeklyl-aljbl-59-ml-2-771514_940x.jpg" ,
+        "discountdegree" :"97",
+        "cardtext":"بليشاكوي قناع النوم بالكولاجين لترطيب البشرة -50 مل",
+        "priceold":"172.00",
+        "pricenew":"90.00"
+
+    },
+    {
+        "cardimg":    "framzy-mjmoaa-alfylr-morfosys-leaaad-bna-alshaar-100ml3-506308_940x.jpg",
+         "discountdegree" :"27",
+        "cardtext":"abc",
+        "priceold":"230.00",
+        "pricenew":"160.00"
+        
+    },
+    
+    {
+        "cardimg":  "krym-kynta-almghrby-alasly-ltrtyb-otftyh-albshr-oalmnatk-alhsas-30-mjm-104661_534x.jpg" ,
+        "discountdegree" :"97",
+        "cardtext":"ثاني قناع النوم بالكولاجين لترطيب البشرة -50 مل",
+        "priceold":"172.00",
+        "pricenew":"90.00"
+
+    }, {
+        "cardimg":    "framzy-mjmoaa-alfylr-morfosys-leaaad-bna-alshaar-100ml3-506308_940x.jpg",
+         "discountdegree" :"27",
+        "cardtext":"ثالث قناع النوم بالكولاجين لترطيب البشرة -50 مل",
+        "priceold":"230.00",
+        "pricenew":"160.00"
+    }  ,   {
+        "cardimg":  "krym-kynta-almghrby-alasly-ltrtyb-otftyh-albshr-oalmnatk-alhsas-30-mjm-104661_534x.jpg" ,
+        "discountdegree" :"97",
+        "cardtext":"رابع قناع النوم بالكولاجين لترطيب البشرة -50 مل",
+        "priceold":"172.00",
+        "pricenew":"90.00"
+
+    },{
+        "cardimg":    "framzy-mjmoaa-alfylr-morfosys-leaaad-bna-alshaar-100ml3-506308_940x.jpg",
+         "discountdegree" :"27",
+        "cardtext":"خامس قناع النوم بالكولاجين لترطيب البشرة -50 مل",
+        "priceold":"230.00",
+        "pricenew":"160.00"
+    }, {
+        "cardimg":    "framzy-mjmoaa-alfylr-morfosys-leaaad-bna-alshaar-100ml3-506308_940x.jpg",
+         "discountdegree" :"27",
+        "cardtext":"بليشاكوي قناع النوم بالكولاجين لترطيب البشرة -50 مل",
+        "priceold":"230.00",
+        "pricenew":"160.00"
+    }
+    
+]

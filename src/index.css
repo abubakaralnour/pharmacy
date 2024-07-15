@@ -1,0 +1,888 @@
+
+  
+  *{
+  margin: 0;
+  padding: 0;
+ 
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+
+}
+body{
+
+  
+}
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.almarai-light {
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.almarai-regular {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.almarai-extrabold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.almarai-light {
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.almarai-regular {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almarai-bold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.almarai-extrabold {
+  font-family: "Almarai", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+body{
+  background: #f1f1f121;
+  overflow-x: hidden;
+}
+
+/*  header */
+.notification {
+  position: fixed;
+  bottom: 0;
+  left: 80%;
+ z-index: 411;
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  opacity: 1;
+  transition:  all 1s ease-in-out;
+}
+.notification:hover{
+  background-color:white;
+
+}
+
+.notification.show {
+  opacity: 1; 
+}
+
+.notification.hide {
+  opacity: 0; 
+}
+
+.noti-button{display: flex;
+justify-content: space-around;
+padding-top: 20px;}
+
+.counter{
+  background: blue;
+  color: white;
+  height: 60px;
+  
+  transition: all 1s;
+ 
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.counter-peroud p{
+  
+  font-size: 12px;
+  
+}
+
+
+.countnumber{
+  
+ 
+  font-size: 25px;
+}
+.textcounterr p{
+  padding-top: 15px;
+  padding-right: 20px;
+}
+.close-btn-counter-divv{
+
+  padding-top: 10px;
+
+ transition: opacity 0.3s ease-in-out;
+ cursor: pointer;
+
+}
+.close-btn-counter {
+  color: white;
+  padding-bottom: 10px;
+}
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+  
+ 
+
+}
+.input-iconsSearch{
+  width: 50%;
+  
+  align-content: center;
+}
+.logopharmcy-brandpharmcy{
+  display: flex;
+  width: 25%;
+  
+}
+
+.ahref-and-icons-enter-favorte-basket{
+  width: 25%;
+ 
+}
+
+
+
+
+
+
+
+.ahref-favorte a, .ahref-enter a, .ahref-basket a{
+  text-decoration: none;
+  font-family: "Almarai", sans-serif;
+  color: black;
+  position: relative;
+cursor: pointer;
+}
+.ahref-favorte a:hover, .ahref-enter a:hover, .ahref-basket a:hover{
+  
+}
+.w{
+  text-align: center;
+}
+
+.searchiconsearch {
+  height: 40px;
+  width: 40px;
+ 
+ translate: 50px 0;
+  cursor: pointer;
+ 
+
+}
+.ahref-enter-favorte-basket{
+  display: flex;
+}
+
+
+.iconheart ,.iconperson ,.iconbasket{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding-bottom: 5px;
+  color: black;
+}
+
+
+.iconheart:hover,.iconperson :hover,.iconbasket:hover{
+  transform: scale(1.1);
+  
+}
+.lnktext{
+  text-decoration: none;
+}
+
+
+.input-iconsSearch input{width: 500PX;
+  font-family: "Almarai", sans-serif;
+  padding-right: 20px;
+  margin-right: 50px;
+  border-radius: 25px;
+  height: 60px;
+  background: #f1f1f157;
+  box-shadow:-3px 5px 6px #dab3b3c0;
+  
+}
+.input-iconsSearch input:focus{
+  background: white;
+  
+  
+}
+
+.whatsapp img{
+  
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: inline-flex;
+ 
+}
+.whatsapp{
+
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+ 
+  cursor: pointer;
+  align-items: center;
+ 
+z-index: 6;
+  
+}
+
+
+
+.logopharmcy{
+ 
+  width: 70px;
+  height: 85px;
+}
+
+
+
+
+
+
+/*  MAIN  */
+.main-img {
+  cursor: pointer;
+  translate: 0 -8px;
+ 
+}
+.main-img img{
+  width: 100%;
+}
+
+
+/* Navshow */
+
+.Navshowimg{
+  height: 170px;
+  width: 170px;
+  cursor: pointer;
+}
+p{
+  cursor: pointer;
+  display: block;
+}
+
+.titleh{
+  text-align: center;
+  margin-top: 30px;
+  
+}
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.slide{
+  display: flex;
+  
+}
+a {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.ptitle{
+  margin-top: 10px;
+  text-align: center;
+
+  text-decoration: none;
+  
+  
+  }
+  .pmg{
+    height: 130px;
+    width:  130px;
+    border-radius: 65;
+    transition: 0.5s;
+  }
+  .pmg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+  }
+
+ 
+
+  /* navebariconfixed التصنيفات  */
+
+  .headul{
+    background: red;
+    height: 60px;
+position: fixed;
+
+
+
+  color: white;
+  }
+  .container-fluid-facke{
+    background: rgb(8, 148, 204);
+    padding: 15px;
+    transition: all 1s;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  height: 50px;
+  font-size: 14px; color: white;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
+  .qq li{
+    display: inline-block;
+    background: red;
+  }
+
+  
+.iconbrandnav{
+  height: 30px;
+  width: 30px;
+  padding-top: 3px;
+ 
+}
+.brand{
+  font-family:fantasy;
+  font-weight: bold;
+  color: white;
+  
+  margin-left: 140px;
+}
+
+.container-fluid{
+  background: rgb(8, 148, 204);
+  padding: 15px;
+
+height: 50px;
+font-size: 14px; color: white;
+font-size: 13px;
+font-family: "Almarai", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+a.nav-link{
+ color: white; 
+ text-transform: capitalize;
+}
+a.nav-link {
+  color: white; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+
+}
+a.nav-link:hover{color: yellow;}
+a.nav-link ::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: white;
+transition: all .5s;
+}
+
+a.nav-link :hover:before
+{
+width: 100%;
+
+}
+.price{
+  font-size: 13px;
+
+}
+.drop-down-item{
+  color: yellow;
+  font-size: 13px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+#w{
+  color: white;
+ 
+}
+   /* Compnavlog */
+  
+   .Compnavlog{
+    background-color: #8d8a8a3d;
+    height: 300px;
+    
+
+  }
+
+/* Towjpg */
+
+
+.Towjpg{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  margin-top: 0px;
+  background: #f7f0f0a2;
+  height: 300px;
+
+}
+
+.Towjpg-a{
+  width: 600px;
+  height: 400px;
+padding-top: 20px;
+} 
+.Towjpg-b{
+  width: 600px;
+  height: 400px;
+  perspective: 600px;
+ position: relative;padding-top: 20px;
+}
+.Towjpg-a img,.Towjpg-b img{
+width: 650px;
+  height: 250px;
+  cursor: pointer;
+
+  display: block;
+  
+ 
+  transition: all .5s ease-in;
+}
+.Towjpg-a img:hover ,.Towjpg-b img:hover{
+transform: translate3d(10px, 10px,10px)
+}
+
+
+
+
+/*  Card */
+
+
+
+
+.cardContaner{
+height: 550px;
+  background: #f7f0f0a2;
+  gap: 5px;
+  
+}
+.card-img {
+  height: 180px;
+  padding: 20px;
+  
+}
+.card-title-contaner h4{
+  
+
+  font-family: "Almarai", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.card-contaner-title-buttonseeall{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f7f0f0a2;
+}
+.card-showall-contaner a{
+color: black;
+font-family: "Almarai", sans-serif;
+font-size: 18px;
+text-decoration: none;
+
+
+
+}
+
+.discount-degree{
+  translate: 0 -180px;
+}
+.discount-degree p{height: 30px; width: 60px;
+  font-size: 18px;
+  background-color: rgb(233, 171, 202);
+  text-align: center;
+  color: rgb(172, 75, 123);;
+  
+}
+.price-old p{
+  font-size: 16px;
+  text-decoration: line-through;
+  
+}
+.price-new p{
+  color: red;
+  font-size: 25px;
+
+
+}
+.cardcard{
+  height: 200px;
+}
+.buttonn-card{
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: .5s;
+  background: white;
+}
+.buttonn-card:hover{
+ background: rgba(7, 183, 252, 0.795);
+ color: white;
+ transform: scale(1.1);
+}
+
+.text-card a{
+  font-family: "Almarai", sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+  font-size: 16px;
+}
+
+
+/*  Cardtow */
+
+
+.Cardtow{
+  
+  background: #f7f0f0;
+ 
+}
+.photo-alone img{
+  width: 1300px;
+margin-right: 30px;
+transition: 0.9s;
+cursor: pointer;
+
+}
+.photo-alone img:hover{
+  transform: scale(1.1);
+
+}
+
+/*  footer */
+
+.footer{height: 500px;
+  padding: 20px;
+  background: #f7f0f02a;
+  
+}
+.prgraph-a{
+  text-decoration: none;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  
+  
+}
+
+.prgraph-footer-title{
+  font-family: "Almarai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.iconsocialmedia {
+background:#e7e4e4;
+height: 30px;
+width: 30px;
+border-radius: 15px;
+border: 0;
+
+
+}
+
+.iconsocialmedia:hover{
+  background: #f7f0f02a;
+  height: 0;
+  width: 0;
+  
+}
+
+.sepatr{
+padding-top: 10px;
+}
+.row-paddng{
+  padding-bottom: 10px;
+}
+.footer-mg img{
+  width: 200px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  
+
+}
+.bootom-footer{
+display: flex;
+justify-content: space-between;align-items: center;
+background: #e2dada85;
+}
+.bootom-footer-icon{
+  display: flex;
+  height: 80%;
+  
+}
+
+.bootom-footer-icon-a img{
+  height: 50px;
+  width: 60px;
+}
+.bootom-footer-p{
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: 80%;
+  font-size: 15px;
+}
+
+
+
+/*  favrote */
+
+
+.under-progrees{
+  height: 500px;
+  width: 100%;
+align-items: center;
+}
+.not-found{
+  background: red;
+  text-align: center;
+  
+
+}
+.collpse-div{
+  direction: ltr;
+  margin: 0;
+  top: 50px;
+
+}
+
+
+.sidenave{
+  width: 450px;
+  background: white;
+  height: 100vh;
+  padding: 0 30px;
+  transition: all 1s;
+  left:  -100%;
+  position: absolute;
+z-index: 1100;
+top: 0;
+
+}
+.btn{
+  background: red;
+}
+.sidenave.active {
+  left: 0;
+}
+.navflex{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+
+
+
+.title {
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 15px;margin-bottom: 30px;
+}
+
+.input {
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px;margin-bottom: 20px;
+}
+
+
+.page-link {
+  text-decoration: underline;
+  margin: 0;
+  text-align: center;
+  color: #747474;
+  text-decoration-color: #747474;
+}
+
+.page-link-label {
+  cursor: pointer; text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.form-btnn{
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px; width: 100%;
+  background: white;
+}
+
+.form-btnn:hover{
+  background: rgb(8, 148, 204);
+  color: white;  transition: 1s;
+}
+.page-link-label:hover {
+  color: #000;
+}
+
+.form-btn {margin-bottom: 20px;
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: rgb(8, 148, 204);
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form-btn:hover{
+  background: white;
+  color: black;
+  transition: 1s;
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+.sign-up-label {
+  margin: 0;
+  font-size: 12px;
+  color: #747474;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sign-up-link {
+  margin-left: 1px;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  color: teal;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.apple-login-button,
+    .google-login-button {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  gap: 5px;
+}
+
+.apple-login-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.google-login-button {
+  border: 2px solid #747474;
+}
+
+.apple-icon,
+    .google-icon {
+  font-size: 18px;
+  margin-bottom: 1px;
+}
+
+
+
